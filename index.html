@@ -29,7 +29,7 @@
         <h1>San Jose</h1>
         <div class="temp">
             <label for="temperature">show temperature in</label>
-            <select name="temperature" id="select-temp">
+            <select name="temperature" id="select-temp" onchange="onTempChange()">
                 <option value="C">°C</option>
                 <option value="F">°F</option>
             </select>
@@ -37,7 +37,20 @@
     </div>
 
     <!-- main body content -->
-
+    <div class="main-body-container">
+        <div class="forecast">
+            <img src="imgs/some_rain.png" alt="some rain">
+        </div>
+        <div class="forecast">
+            <img src="imgs/some_sun.png" alt="some sun">
+        </div>
+        <div class="forecast">
+            <img src="imgs/some_clouds.png" alt="some clouds">
+        </div>
+        <div class="forecast">
+            <img src="imgs/some_sun.png" alt="some sun">
+        </div>
+    </div>
 
 
 
