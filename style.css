@@ -54,3 +54,13 @@
     display: flex;
     justify-content: space-between;
 }
+
+.main-body-container {
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 65%;
+    display: flex;
+}
+
+
+/* create a shadow blur y-1 x 0 */
