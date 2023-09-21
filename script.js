@@ -13,8 +13,7 @@ function fahrenheit2Celcius(temp){
 }
 
 function onTempChange(element){
-    console.log("you changed temp")
-    console.log(element.value)
+    console.log("you changed temp " + element.value)
     for(var i=1; i<9; i++){
         var spanTag = document.querySelector("#temp-" + i);
         var tempValue = parseInt(spanTag.innerText);
