@@ -57,10 +57,52 @@
 
 .main-body-container {
     margin: 0 auto;
-    border: 2px solid black;
     width: 65%;
     display: flex;
+    justify-content: space-around;
+
 }
 
+.forecast {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #eeeeee;
+    width: 200px;
+    height: 350px;
+}
 
+.forecast p {
+    font-weight: bolder;
+}
+
+.weather-img {
+    border-radius: 50%;
+    height: 150px;
+}
+
+.temp-reading {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.temp-reading span {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.color-left::after, .color-right::after{
+    content: "°";
+}
+
+.color-left{
+    color: #cf2a27;
+}
+
+.color-right {
+    color: #2b78e4;
+}
 /* create a shadow blur y-1 x 0 */

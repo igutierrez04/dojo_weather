@@ -29,7 +29,7 @@
         <h1>San Jose</h1>
         <div class="temp">
             <label for="temperature">show temperature in</label>
-            <select name="temperature" id="select-temp" onchange="onTempChange()">
+            <select name="temperature" id="select-temp" onchange="onTempChange(this)">
                 <option value="C">°C</option>
                 <option value="F">°F</option>
             </select>
@@ -40,38 +40,38 @@
     <div class="main-body-container">
         <div class="forecast">
             <h1>Today</h1>
-            <img src="imgs/some_rain.png" alt="some rain">
+            <img src="imgs/some_rain.png" alt="some rain" class="weather-img">
             <p>some rain</p>
             <div class="temp-reading">
-                <span>24°</span>
-                <span>18°</span>
+                <span class="color-left" id="temp-1">24</span>
+                <span class="color-right" id="temp-2">18</span>
             </div>
         </div>
         <div class="forecast">
             <h1>Tomorrow</h1>
-            <img src="imgs/some_sun.png" alt="some sun">
+            <img src="imgs/some_sun.png" alt="some sun" class="weather-img">
             <p>some sun</p>
             <div class="temp-reading">
-                <span>27°</span>
-                <span>19°</span>
+                <span class="color-left" id="temp-3">27</span>
+                <span class="color-right" id="temp-4">19</span>
             </div>
         </div>
         <div class="forecast">
-            <h2>Friday</h2>
-            <img src="imgs/some_clouds.png" alt="some clouds">
+            <h1>Friday</h1>
+            <img src="imgs/some_clouds.png" alt="some clouds" class="weather-img">
             <p>some clouds</p>
             <div class="temp-reading">
-                <span>21°</span>
-                <span>16°</span>
+                <span class="color-left" id="temp-5">21</span>
+                <span class="color-right" id="temp-6">16</span>
             </div>
         </div>
         <div class="forecast">
             <h1>Saturday</h1>
-            <img src="imgs/some_sun.png" alt="some sun">
+            <img src="imgs/some_sun.png" alt="some sun" class="weather-img">
             <p>some sun</p>
             <div class="temp-reading">
-                <span>26°</span>
-                <span>21°</span>
+                <span class="color-left" id="temp-7">26</span>
+                <span class="color-right" id="temp-8">21</span>
             </div>
         </div>
     </div>
