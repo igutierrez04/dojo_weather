@@ -105,4 +105,17 @@
 .color-right {
     color: #2b78e4;
 }
+
+.bottom-content {
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 65%;
+    height: 110px;
+}
+
+.cookie-msg{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
 /* create a shadow blur y-1 x 0 */

@@ -25,3 +25,7 @@ function onTempChange(element){
     }
 }
 
+function dissmiss(element){
+    element.remove();
+    console.log(element);
+}
