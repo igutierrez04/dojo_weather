@@ -107,15 +107,29 @@
 }
 
 .bottom-content {
-    margin: 0 auto;
     border: 2px solid black;
+    margin: 0 auto;
     width: 65%;
     height: 110px;
-}
-
-.cookie-msg{
-    width: 100%;
+    position: fixed;
+    bottom: 20px;
+    left: 350px;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
 }
-/* create a shadow blur y-1 x 0 */
+
+.bottom-content img {
+    height: 80px;
+}
+
+.cookie-btn {
+    width: 100px;
+    height: 40px;
+    background-color: #9fc5f8;
+    box-shadow: 3px 3px 0px;
+}
+
+.cookie-msg a {
+    color: #6b96ba;
+}

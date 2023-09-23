@@ -25,7 +25,7 @@ function onTempChange(element){
     }
 }
 
-function dissmiss(element){
-    element.remove();
-    console.log(element);
+function dissmiss(id){
+    var cookie = document.querySelector(id)
+    cookie.remove();
 }
